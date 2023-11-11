@@ -1,0 +1,25 @@
+/* App.css */
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+/* Añade estilos globales y de normalización aquí. Por ejemplo: */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+/* Puedes añadir más estilos globales y adaptaciones para dispositivos móviles */
+@media (max-width: 768px) {
+  .App {
+    padding: 0 5px; /* Agrega algo de padding en dispositivos móviles */
+  }
+}

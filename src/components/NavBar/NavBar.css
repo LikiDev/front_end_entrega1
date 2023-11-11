@@ -1,0 +1,7 @@
+.navbar {
+    margin-bottom: 20px;
+}
+.navbar-logo {
+    height: 30px; /* Ajusta la altura según necesites */
+    margin-right: 10px; /* Añade un poco de espacio entre el logo y el texto */
+}

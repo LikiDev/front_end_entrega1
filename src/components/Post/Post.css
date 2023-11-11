@@ -1,0 +1,47 @@
+/* Post.css */
+.post {
+    margin-bottom: 20px;
+}
+
+.post .card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.post .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.post .card-text {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-footer .interactions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-footer .interactions i {
+    cursor: pointer;
+}
+
+/* Añade estilos para los iconos si es necesario */
+.bi-heart,
+.bi-chat {
+    margin-right: 5px;
+}
+
+/* Estilos para la fecha y la interacción */
+.text-muted {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,17 @@
+.searchbar {
+    margin: 10px 0;
+}
+
+.searchbar .form-control {
+    margin-right: 5px;
+}
+
+.searchbar .btn-outline-success {
+    color: #fff;
+    border-color: #28a745;
+    background-color: #28a745;
+}
+
+.searchbar .bi-search {
+    font-size: 1.2rem;
+}

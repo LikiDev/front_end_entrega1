@@ -1,0 +1,44 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* un color de fondo suave */
+  color: #333; /* color de texto principal */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Puede que quieras resetear algunos estilos por defecto de HTML */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ajustes de padding y margin para que todo ocupe el 100% del viewport */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos adicionales para mejorar la accesibilidad y el mobile first */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0056b3; /* un contorno azul para mejorar la visibilidad al enfocar */
+}
+
+@media (max-width: 768px) {
+  /* Tus estilos responsivos aquí */
+}

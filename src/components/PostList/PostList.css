@@ -1,0 +1,51 @@
+/* Post.css */
+.post {
+    margin-bottom: 20px;
+}
+
+.post .card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.post .card-body {
+    text-align: left; /* Alinea el texto del cuerpo de la tarjeta a la izquierda */
+}
+
+.post .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+.post .card-text {
+    font-size: 0.9rem;
+    text-align: left; /* Alinea la descripción a la izquierda */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-footer .interactions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-footer .interactions i {
+    cursor: pointer;
+}
+
+.bi-heart,
+.bi-chat {
+    margin-right: 5px;
+}
+
+.text-muted {
+    font-size: 0.8rem;
+}
